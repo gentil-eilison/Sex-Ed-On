@@ -1,0 +1,28 @@
+.fgroup {
+    display: flex; 
+    flex-direction: column;
+
+    width: fit-content;
+
+    label {
+        color: var(--title-color);
+        font-weight: bold;
+        font-size: 1.7rem;
+    }
+
+    input {
+        border: solid 2px var(--header-color);
+        border-radius: 14px;
+        
+        color: var(--title-color);
+        font-size: 1.5rem;
+
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        &:focus {
+            outline: solid #0b7057 3px;
+        }
+    }
+}
